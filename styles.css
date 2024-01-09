@@ -1,10 +1,40 @@
 body {
-    background: lightgrey;
+    background: white;
     font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    border: 5px red;
+}
+
+.main {
+    display: inline-block;
+    width: 930px;
+    height: auto;
 }
 
 h1, h2 {
     color: purple;
+}
+
+.index-sub-head {
+    color:black;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.links{
+    font-size: 20px;
+    margin-left: 45px;
+    margin-bottom: 35px;
+}
+
+.link1, .link2 {
+    margin-right: 60px;
+}
+
+.img-position {
+    margin-left: 100px;
+    margin-bottom: 30px;
+    padding-left: 60px;
 }
 
 #txt {
@@ -14,4 +44,20 @@ h1, h2 {
 
 ol, div, .sub-head {
     color:rgb(121, 77, 82)
+}
+
+.heading {
+    margin-left: 155px;
+    font-size: 30px;
+}
+
+.container {
+    background-color: rgb(252, 237, 237);
+    margin-left: 140px;
+    width: 650px;
+    height: auto;
+    padding: 8px;
+    border-left-style: solid;
+    border-width: 10px;
+    border-left-color: purple;
 }
