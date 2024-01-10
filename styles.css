@@ -61,3 +61,21 @@ ol, div, .sub-head {
     border-width: 10px;
     border-left-color: purple;
 }
+
+.buttons {
+    width: 100px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+}
+
+.btn1, .btn2 {
+    background-color: rgb(195, 188, 188);
+    font-weight: 600;
+    width: 110px;
+    height: auto;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 5px 7px;
+}
